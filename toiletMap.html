@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css\shopStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5" id="top">
+                <a class="navbar-brand" href="index.html">WikiPOOPia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="quickPoop.html">順暢便利站</a></li>
+                        <li class="nav-item"><a class="nav-link" href="information.html">便識小學堂</a></li>
+                        <li class="nav-item"><a class="nav-link" href="toiletMap.html">便民好廁所</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid custom-img me-3" src="assets/poopToilet.PNG" alt="quickPoopTest" />
+                    <div class="text-center text-white">
+                        <h1 class="display-4 fw-bolder">便民好廁所</h1>
+                        <p class="lead fw-normal text-white-50 mb-0" style="font-size: 25px;">公館I人友善廁所合集<br>臺大校門口走路10分鐘，立即解放免消費</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--頁面說明-->
+        <div class="description-container">
+            <div class="container px-4 px-lg-5 my-4">
+                <p class="lead fw-normal text-center" style="font-size: 22px;">
+                    "公館最友善的便民解放據點大公開！<br>
+                    免消費、免對話、免尷尬，乾淨舒適隨時解放。<br>
+                    不管您喜歡蹲式還是坐式、大間還小間，便民好廁所這裡通通有！"
+                </p>
+                <p class="lead fw-normal text-center" style="font-size: 18px; color: gray;">
+                    ⚠️以性別友善廁所和女廁為主⚠️
+                </p>
+            </div>
+        </div>
+        <!-- Section-->
+        <section class="py-1">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <!--寶雅-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">環境舒適</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\poya.jpg" alt="poya" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">POYA 寶雅</h4>
+                                    <p class="product-text">臺北公館店<br>坐式、1間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#poyaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--新生麥-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">多間無壓力</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\mcdonald.jpg" alt="mcdonald" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">麥當勞</h4>
+                                    <p class="product-text">北新生餐廳<br>坐式、多間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#mcdonaldModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--校園書坊-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">環境舒適</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\campusBookstore.jpg" alt="campusBookstore" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">校園書房</h4>
+                                    <p class="product-text">臺北總店<br>坐式、1間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#campusBookstoreModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--摩斯漢堡-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\mossBurger.jpg" alt="mossBurger" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">摩斯漢堡</h4>
+                                    <p class="product-text">臺大公館店<br>坐式、2間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#mossBurgerModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--捷運公館站-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">多間無壓力</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\gongGuanMRT.jpg" alt="gongGuanMRT" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">捷運公館站</h4>
+                                    <p class="product-text">坐 & 蹲式、多間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#gongGuanMRTModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--萊爾富便利商店-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\hiLife.jpg" alt="hiLife" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">萊爾富便利商店</h4>
+                                    <p class="product-text">大安溫州店<br>坐式、1間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#hiLifeModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--臺北真理堂-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">多間無壓力</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\zhenLiChurch.jpg" alt="zhenLiChurch" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">臺北真理堂</h4>
+                                    <p class="product-text">坐 & 蹲式、多間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#zhenLiChurchModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--星巴克-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">環境舒適</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\starbucks.jpg" alt="starbucks" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">星巴克</h4>
+                                    <p class="product-text">羅斯福門市<br>坐式、2間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#starbucksModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--jj'sPoke-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">環境舒適</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\jj'sPoke.jpg" alt="jj'sPoke" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">JJ‘s Poke</h4>
+                                    <p class="product-text">3號店<br>坐式、2間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#jjsPokeModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--國防醫學院三軍總醫院-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\tingZhouHospital.jpg" alt="tingZhouHospital" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">三軍總醫院</h4>
+                                    <p class="product-text">汀州院區<br>蹲式、1間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#tingZhouHospitalModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--八方雲集-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\8way.jpg" alt="8way" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">八方雲集</h4>
+                                    <p class="product-text">臺大店<br>坐式、1間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#eightWayModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--基督教浸信會懷恩堂-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute middle-badge" style="top: 0.5rem; right: 0.5rem">多間無壓力</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\huaiEnChurch.jpg" alt="huaiEnChurch" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">浸信會懷恩堂</h4>
+                                    <p class="product-text">坐 & 蹲式、多間</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#huaiEnChurchModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 回到頂端按鈕 -->
+            <a href="#top" class="scroll-top-btn">↑</a>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <div class="small m-0 text-white text-center">Copyright &copy; ㄕˇ萊ㄈㄣˋ多學院 2024</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <!-- Modal -->
+        <!--寶雅-->
+        <div class="modal fade" id="poyaModal" tabindex="-1" aria-labelledby="poyaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">POYA 寶雅</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>臺北公館店<br>
+                                        <b>機構地址：</b>臺北市中正區汀州路三段184-4號<br>
+                                        <b>開放時間：</b>（一）-（日）10:00-23:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>中央抽取式衛生紙、馬桶坐墊消毒液<br>
+                                        <b>氣味清新：</b>芳香用品、冷氣<br>
+                                        <b>廁所間數：</b>1間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#環境舒適</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#感應沖水</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.62534167071!2d121.5349729!3d25.012843699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9b83227dd27%3A0xd7b3dc14b85c85a8!2zUE9ZQeWvtumbhSDlj7DljJflhazppKjlupc!5e0!3m2!1szh-TW!2stw!4v1732448399700!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\poya.jpg" alt="poya"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--麥當勞-->
+        <div class="modal fade" id="mcdonaldModal" tabindex="-1" aria-labelledby="mcdonaldModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-7 fw-bolder text-black mb-3">麥當勞</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>臺北新生餐廳<br>
+                                        <b>機構地址：</b>臺北市大安區新生南路三段88之2號<br>
+                                        <b>開放時間：</b>（一）-（日）05:00-00:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、馬桶坐墊消毒液<br>
+                                        <b>氣味清新：</b>冷氣<br>
+                                        <b>廁所間數：</b>4間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#多間無壓力</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#小心沒有衛生紙</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14461.869295504779!2d121.5333445!3d25.01821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abcbfa6c99e5%3A0xd63af2e916170db5!2z6bql55W25YueLeWPsOWMl-aWsOeUn-mkkOW7sw!5e0!3m2!1szh-TW!2stw!4v1733316866513!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\mcdonald.jpg" alt="mcdonald"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--校園書房-->
+        <div class="modal fade" id="campusBookstoreModal" tabindex="-1" aria-labelledby="campusBookstoreModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-7 fw-bolder text-black mb-3">校園書房</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>臺北總店<br>
+                                        <b>機構地址：</b>臺北市中正區羅斯福路四段22號1F.2F<br>
+                                        <b>開放時間：</b>（一）-（六）10:30-21:50 <br>&emsp;&emsp;&emsp;&emsp;&emsp;（日）13:00-21:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、沖水器<br>
+                                        <b>氣味清新：</b>芳香用品、冷氣<br>
+                                        <b>廁所間數：</b>1間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#環境舒適</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#爬樓梯到2樓</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55977.19857576429!2d121.46846998805519!3d25.010958518232602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a989e5bbc22b%3A0xd4c37231e57bf088!2z5qCh5ZyS5pu45oi_KOWPsOWMl-e4veW6lyk!5e0!3m2!1szh-TW!2stw!4v1733421780866!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\campusBookstore.jpg" alt="campusBookstore"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--摩斯-->
+        <div class="modal fade" id="mossBurgerModal" tabindex="-1" aria-labelledby="mossBurgerModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">摩斯漢堡</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>臺大公館店<br>
+                                        <b>機構地址：</b>臺北市中正區羅斯福路三段306號<br>
+                                        <b>開放時間：</b>（一）06:00-00:00<br>&emsp;&emsp;&emsp;&emsp;&emsp;（二）-（六）00:00-24:00<br>&emsp;&emsp;&emsp;&emsp;&emsp;（日）00:00-22:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、沖水器<br>
+                                        <b>氣味清新：</b>芳香用品、冷氣<br>
+                                        <b>廁所間數：</b>2間
+                                    </p>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57850.90388624942!2d121.46846981867742!3d25.010936539575667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9da9d412c0d%3A0x98fb00c91e31df0f!2z5pGp5pav5ryi5aCh5Y-w5aSn5YWs6aSo5bqX!5e0!3m2!1szh-TW!2stw!4v1733422479753!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\mossBurger.jpg" alt="mossBurger"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--捷運公館站-->
+        <div class="modal fade" id="gongGuanMRTModal" tabindex="-1" aria-labelledby="gongGuanMRTModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">捷運公館站</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>機構地址：</b>臺北市中正區羅斯福路四段64之1號<br>
+                                        <b>開放時間：</b>（一）-（日）06:00–00:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶、蹲式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、馬桶坐墊消毒液<br>
+                                        <b>氣味清新：</b>冷氣<br>
+                                        <b>廁所間數：</b>13間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#環境舒適</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#多間無壓力</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14461.771250053256!2d121.51357948780065!3d25.019042311837023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a92d2e6f619f%3A0x9d4563c24c347ba5!2z6JCK54i-5a-M5L6_5Yip5ZWG5bqX5aSn5a6J5rqr5bee5bqX!5e0!3m2!1szh-TW!2stw!4v1733423385010!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\gongGuanMRT.jpg" alt="gongGuanMRT"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--萊爾富-->
+        <div class="modal fade" id="hiLifeModal" tabindex="-1" aria-labelledby="hiLifeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">萊爾富便利商店</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>大安溫州店<br>
+                                        <b>機構地址：</b>臺北市大安區羅斯福路三段283巷11號一樓<br>
+                                        <b>開放時間：</b>（一）-（日）000:00–24:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>未提供<br>
+                                        <b>氣味清新：</b>芳香用品<br>
+                                        <b>廁所間數：</b>1間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#全年無休</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#未提供衛生紙</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57850.90388624942!2d121.46846981867742!3d25.010936539575667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9da9d412c0d%3A0x98fb00c91e31df0f!2z5pGp5pav5ryi5aCh5Y-w5aSn5YWs6aSo5bqX!5e0!3m2!1szh-TW!2stw!4v1733422479753!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\hiLife.jpg" alt="hiLife"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--臺北真理堂-->
+        <div class="modal fade" id="zhenLiChurchModal" tabindex="-1" aria-labelledby="zhenLiChurchLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">臺北真理堂</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>機構地址：</b>臺北市大安區新生南路三段86號<br>
+                                        <b>開放時間：</b>（一）休息<br>&emsp;&emsp;&emsp;&emsp;&emsp;（二）-（日）08:00-22:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶、蹲式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙<br>
+                                        <b>氣味清新：</b>芳香用品<br>
+                                        <b>廁所間數：</b>6間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#每層都有廁所</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#多間無壓力</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.45633398252!2d121.53055947420363!3d25.018583177826407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98971e3aba5%3A0x307b48311987ca73!2z5Y-w5YyX55yf55CG5aCC!5e0!3m2!1szh-TW!2stw!4v1733423828171!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\zhenLiChurch.jpg" alt="zhenLiChurch"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--星巴克-->
+        <div class="modal fade" id="starbucksModal" tabindex="-1" aria-labelledby="starbucksLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">星巴克</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>羅斯福門市<br>
+                                        <b>機構地址：</b>臺北市大安區新生南路三段86號<br>
+                                        <b>開放時間：</b>（一）-（日）07:00-21:00<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、馬桶坐墊消毒液<br>
+                                        <b>氣味清新：</b>芳香用品、冷氣<br>
+                                        <b>廁所間數：</b>2間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#環境舒適</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#置物平台大</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14461.953630691287!2d121.5138423442841!3d25.01749405443518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98bfaf4b4e1%3A0x6788221363c3a23!2zU1RBUkJVQ0tTIOaYn-W3tOWFiyAo576F5pav56aP6ZaA5biCKQ!5e0!3m2!1szh-TW!2stw!4v1733424160459!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\starbucks.jpg" alt="starbucks"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--JJ‘s Poke-->
+        <div class="modal fade" id="jjsPokeModal" tabindex="-1" aria-labelledby="jjsPokeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">JJ‘s Poke & CAFE</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>3號店<br>
+                                        <b>機構地址：</b>臺北市中正區羅斯福路三段284巷12號1樓<br>
+                                        <b>開放時間：</b>（一）-（日）11:00–20:30<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>抽取式衛生紙、馬桶坐墊消毒液、沖水器<br>
+                                        <b>氣味清新：</b>芳香用品、冷氣<br>
+                                        <b>廁所間數：</b>2間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#環境舒適</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#爬樓梯到2樓</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.535172738921!2d121.52916007420342!3d25.015905977828037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9c664b2b125%3A0x59e64b62c3e1fb75!2zSkrigJhzIFBPS0UgJiBDQUZFIDPlj7flupc!5e0!3m2!1szh-TW!2stw!4v1733424659145!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\jj'sPoke.jpg" alt="jj'sPoke"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--JJ‘s Poke-->
+        <div class="modal fade" id="tingZhouHospitalModal" tabindex="-1" aria-labelledby="tingZhouHospitalModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">國防醫學院三軍總醫院</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>汀州院區<br>
+                                        <b>機構地址：</b>臺北市中正區汀州路三段40號<br>
+                                        <b>開放時間：</b>（一）-（四）06:30-21:00<br>&emsp;&emsp;&emsp;&emsp;&emsp;（五）06:30–18:00<br>&emsp;&emsp;&emsp;&emsp;&emsp;（六）06:30–15:00<br>
+                                        <b>馬桶類別：</b>蹲式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙<br>
+                                        <b>氣味清新：</b>電風扇<br>
+                                        <b>廁所間數：</b>1間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#門診廁所</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#由自動門進出</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.535172738921!2d121.52916007420342!3d25.015905977828037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9c664b2b125%3A0x59e64b62c3e1fb75!2zSkrigJhzIFBPS0UgJiBDQUZFIDPlj7flupc!5e0!3m2!1szh-TW!2stw!4v1733424659145!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\tingZhouHospital.jpg" alt="tingZhouHospital"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--八方雲集-->
+        <div class="modal fade" id="eightWayModal" tabindex="-1" aria-labelledby="eightWayModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">八方雲集</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>分店名稱：</b>臺大店<br>
+                                        <b>機構地址：</b>臺北市大安區羅斯福路三段333巷9號<br>
+                                        <b>開放時間：</b>（一）-（日）10:30-20:30<br>
+                                        <b>馬桶類別：</b>坐式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙、沖水器<br>
+                                        <b>氣味清新：</b>冷氣<br>
+                                        <b>廁所間數：</b>1間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#多間無壓力</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#無置物空間</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14461.947045662853!2d121.51477307081221!3d25.017549957318487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a98bde0af37b%3A0xab96f9113268369f!2z5YWr5pa56Zuy6ZuGICjlj7DlpKflupcp!5e0!3m2!1szh-TW!2stw!4v1733425383990!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\8way.jpg" alt="8way"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--八方雲集-->
+        <div class="modal fade" id="huaiEnChurchModal" tabindex="-1" aria-labelledby="huaiEnChurchModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-6 fw-bolder text-black mb-3">基督教浸信會懷恩堂</h1>
+                                    <p class="lead fw-normal text-black mb-2">
+                                        <b>機構地址：</b>臺北市大安區新生南路三段90號<br>
+                                        <b>開放時間：</b>（一）-（六）09:00-21:30<br>&emsp;&emsp;&emsp;&emsp;&emsp;（日）08:00-21:30<br>
+                                        <b>馬桶類別：</b>坐式馬桶、蹲式馬桶<br>
+                                        <b>如廁用品：</b>捲筒式衛生紙<br>
+                                        <b>氣味清新：</b>芳香用品<br>
+                                        <b>廁所間數：</b>8間
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#大鏡子</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#每層都有廁所</p>
+                                        <p class="lead fw-normal text-black mb-1" style="line-height: 1.5;">#多間無壓力</p>
+                                    </div>
+                                    <iframe 
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.4795341045424!2d121.53058267420353!3d25.01779537782687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a9897ca452c7%3A0x20cf0e4001ddff2d!2z5Z-6552j5pWZ5rW45L-h5pyD5oe35oGp5aCC!5e0!3m2!1szh-TW!2stw!4v1733425820027!5m2!1szh-TW!2stw" 
+                                        width="100%" 
+                                        height="100%" 
+                                        style="border:0; margin-top: 17px;"  
+                                        allowfullscreen="" 
+                                        loading="lazy">
+                                    </iframe>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3" src="assets\huaiEnChurch.jpg" alt="huaiEnChurch"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

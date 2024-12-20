@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Shop Homepage - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css\shopStyles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container px-5" id="top">
+                <a class="navbar-brand" href="index.html">WikiPOOPia</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="quickPoop.html">順暢便利站</a></li>
+                        <li class="nav-item"><a class="nav-link" href="information.html">便識小學堂</a></li>
+                        <li class="nav-item"><a class="nav-link" href="toiletMap.html">便民好廁所</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5 my-5">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="img-fluid custom-img me-3" src="assets/poopQuickShop.PNG" alt="quickPoopTest" />
+                    <div class="text-center text-white">
+                        <h1 class="display-4 fw-bolder">順暢便利站</h1>
+                        <p class="lead fw-normal text-white-50 mb-0" style="font-size: 25px;">便秘來襲？<br>快來逛逛快速通便的好物！</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--頁面說明-->
+        <div class="description-container">
+            <div class="container px-4 px-lg-5 my-4">
+                <p class="lead fw-normal text-center" style="font-size: 22px;">
+                    "這裡是解救您便秘的便利商店，提供各種快速通便的飲料與食物。<br>
+                    無論是便利商店、手搖店還是超市，精選好物隨手可得、快速見效。<br>
+                    幫助您輕鬆告別便秘，生活更便利！"
+                </p>
+            </div>
+        </div>
+        <!-- Section-->
+        <section class="py-1">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    <!--玫瑰蜂蜜水-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute large-badge" style="top: 0.5rem; right: 0.5rem">清肚</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\roseHoney.jpg" alt="roseHoney" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">玫瑰蜂蜜水</h4>
+                                    <p class="product-text">活血化瘀、潤腸</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#roseHoneyModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--綠茶-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\greenTea.jpg" alt="greenTea" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">綠茶</h4>
+                                    <p class="product-text">茶多酚、咖啡因、刺激蠕動</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#greenTeaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--綠拿鐵-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\greenLatte.jpg" alt="greenLatte" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">綠拿鐵</h4>
+                                    <p class="product-text">膳食纖維、消化酵素、刺激蠕動</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#greenLatteModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--優酪乳-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\yogurt.jpg" alt="yogurt" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">優酪乳</h4>
+                                    <p class="product-text">益生菌、乳酸、刺激蠕動</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#yogurtModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--早餐店奶茶-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute large-badge" style="top: 0.5rem; right: 0.5rem">清肚</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\milkTea.png" alt="milkTea" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">早餐店奶茶</h4>
+                                    <p class="product-text">飽和脂肪、大腸桿菌</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#milkTeaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--玫瑰花茶-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Sale badge-->
+                            <div class="badge bg-dark text-white position-absolute large-badge" style="top: 0.5rem; right: 0.5rem">清肚</div>
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\roseTea.jpg" alt="roseTea" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">玫瑰花茶</h4>
+                                    <p class="product-text">活血化瘀、蛋白質變性</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#roseTeaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黑咖啡-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\blackCoffee.png" alt="blackCoffee" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">黑咖啡</h4>
+                                    <p class="product-text">咖啡因、結腸收縮、胃酸分泌</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#blackCoffeeModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--康普茶-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\kombucha.jpg" alt="kombucha" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">康普茶</h4>
+                                    <p class="product-text">益生菌、有機酸、刺激蠕動</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#kombuchaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--黑棗乾-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\prune.jpg" alt="prune" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">黑棗乾</h4>
+                                    <p class="product-text">膳食纖維、山梨糖醇、軟化糞便</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#pruneModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--火龍果-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\dragonFruit.jpg" alt="dragonFruit" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">火龍果</h4>
+                                    <p class="product-text">膳食纖維、果膠、調解燥熱</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#dragonFruitModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--地瓜-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\sweetPatato.jpg" alt="sweetPatato" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">地瓜</h4>
+                                    <p class="product-text">膳食纖維、果膠、增加糞便體積</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#sweetPotatoModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--香蕉-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\banana.jpg" alt="banana" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">香蕉</h4>
+                                    <p class="product-text">膳食纖維、天然糖分、增加糞便體積</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#bananaModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--奇異果-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\kiwi.jpg" alt="kiwi" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">奇異果</h4>
+                                    <p class="product-text">膳食纖維、解腹脹、軟化糞便</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#kiwiModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--海藻-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\seaweed.jpg" alt="seaweed" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">海藻</h4>
+                                    <p class="product-text">膳食纖維、多醣、軟化糞便</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#seaweedModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--酪梨-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\avocado.jpg" alt="avocado" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">酪梨</h4>
+                                    <p class="product-text">膳食纖維、脂肪、潤滑腸道</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#avocadoModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--菇類-->
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="assets\mushroom.jpg" alt="mushroom" />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <h4 class="fw-bolder">菇類</h4>
+                                    <p class="product-text">水溶性纖維、軟化糞便</p>
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#mushroomModal" data-bs-toggle="modal">了解更多</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 回到頂端按鈕 -->
+            <a href="#top" class="scroll-top-btn">↑</a>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        <div class="small m-0 text-white text-center">Copyright &copy; ㄕˇ萊ㄈㄣˋ多學院 2024</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        
+        <!-- Modal 玫瑰蜂蜜水 -->
+        <div class="modal fade" id="roseHoneyModal" tabindex="-1" aria-labelledby="roseHoneyModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">玫瑰蜂蜜水</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>全家便利商店
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>便秘與血液循環不良或腸道蠕動緩慢有關，而玫瑰花具有活血化瘀的功效，促進腸道的血液供應與蠕動功能。蜂蜜則是天然的潤腸劑，能增加腸道內的水分含量，幫助軟化糞便，促進排便。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://www.flourishtcm.com.tw/%E6%AF%94%E6%97%A9%E9%A4%90%E5%BA%97%E5%A4%A7%E5%86%B0%E5%A5%B6%E9%82%84%E5%8E%B2%E5%AE%B3-%E6%B8%85%E8%85%B8%E7%89%B9%E6%95%88%E8%97%A5%E7%8E%AB%E7%91%B0%E8%8A%B1%E8%8C%B6/">玫瑰</a>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="http://society.people.com.cn/n1/2019/0715/c229589-31234773.html#:~:text=%E5%8C%97%E4%BA%AC%E4%B8%AD%E5%8C%BB%E8%8D%AF%E5%A4%A7%E5%AD%A6%E4%B8%9C%E7%9B%B4%E9%97%A8%E5%8C%BB%E9%99%A2%E8%84%BE%E8%83%83%E7%97%85%E7%A7%91%E5%89%AF%E4%B8%BB%E4%BB%BB%E5%8C%BB%E5%B8%88%E6%9D%9C%E5%AE%8F%E6%B3%A2%E8%AF%B4%EF%BC%9A%E2%80%9C%E8%BF%99%E4%B8%AA%E4%B8%8D%E6%98%AF%E7%9C%9F%E7%9A%84%EF%BC%8C%E8%9C%82%E8%9C%9C%E4%B8%BB%E8%A6%81%E6%98%AF%E4%B8%A4%E5%A4%A7%E6%88%90%E5%88%86%EF%BC%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%98%AF%E8%91%A1%E8%90%84%E7%B3%96%EF%BC%8C%E7%AC%AC%E4%BA%8C%E6%98%AF%E6%9E%9C%E7%B3%96%EF%BC%8C%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%88%90%E5%88%86%E5%90%84%E5%8D%A0%E4%B8%80%E5%8D%8A%E3%80%82,%E5%AF%B9%E4%BA%8E%E8%91%A1%E8%90%84%E7%B3%96%E4%B8%8E%E6%9E%9C%E7%B3%96%E6%9D%A5%E8%AF%B4%EF%BC%8C%E4%BA%BA%E4%BD%93%E4%BC%9A%E5%AF%B9%E5%AE%83%E8%BF%9B%E8%A1%8C%E6%B6%88%E5%8C%96%E4%B8%8E%E5%90%B8%E6%94%B6%EF%BC%8C%E4%B9%9F%E5%B0%B1%E6%98%AF%E8%AF%B4%E8%9C%82%E8%9C%9C%E5%88%B0%E8%BE%BE%E5%B0%8F%E8%82%A0%E4%B9%8B%E5%90%8E%EF%BC%8C%E5%85%B6%E5%AE%9E%E5%B0%B1%E5%B7%B2%E7%BB%8F%E8%A2%AB%E5%90%B8%E6%94%B6%E6%8E%89%E4%BA%86%EF%BC%8C%E5%9B%A0%E6%AD%A4%E8%9C%82%E8%9C%9C%E4%B8%8D%E5%A4%AA%E5%8F%AF%E8%83%BD%E4%BA%A7%E7%94%9F%E6%B8%97%E9%80%8F%E6%80%A7%E6%88%96%E5%88%BA%E6%BF%80%E6%80%A7%E7%9A%84%E6%B3%BB%E4%B8%8B%EF%BC%8C%E8%BF%99%E6%A0%B7%E4%B8%80%E7%A7%8D%E5%B8%B8%E8%A7%84%E7%9A%84%E9%80%9A%E4%BE%BF%E4%BD%9C%E7%94%A8%E3%80%82%20%E5%B0%BD%E7%AE%A1%E5%BE%88%E5%A4%9A%E4%BA%BA%E9%83%BD%E7%9B%B8%E4%BF%A1%E5%90%83%E8%9C%82%E8%9C%9C%E8%83%BD%E6%B2%BB%E4%BE%BF%E7%A7%98%EF%BC%8C%E4%BD%86%E4%B8%93%E5%AE%B6%E5%8D%B4%E7%BB%99%E5%87%BA%E4%BA%86%E5%90%A6%E5%AE%9A%E7%9A%84%E7%AD%94%E6%A1%88%E3%80%82">蜂蜜</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\roseHoney.jpg" alt="roseHoney"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 綠茶 -->
+        <div class="modal fade" id="greenTeaModal" tabindex="-1" aria-labelledby="greenTeaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">綠茶</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>便利商店、超市
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>綠茶含有茶多酚和咖啡因，這些成分能夠刺激腸道蠕動，幫助消化和排便。適量飲用綠茶可以促進腸道健康，但過量可能會引起不適（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/green-tea-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\greenTea.jpg" alt="greenTea"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 綠拿鐵 -->
+        <div class="modal fade" id="greenLatteModal" tabindex="-1" aria-labelledby="greenLatteModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">綠拿鐵</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>全家便利商店
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>綠拿鐵含有豐富的膳食纖維和消化酵素，這些成分能夠刺激腸道蠕動，幫助消化和排便。適量飲用綠拿鐵可以促進腸道健康（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/green-latte-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\greenLatte.jpg" alt="greenLatte"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 優酪乳 -->
+        <div class="modal fade" id="yogurtModal" tabindex="-1" aria-labelledby="yogurtModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">優酪乳</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、便利商店
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>優酪乳含有益生菌和乳酸，這些成分能夠促進腸道健康，刺激腸道蠕動，幫助消化和排便。適量飲用優酪乳可以改善腸道菌群平衡（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/yogurt-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\yogurt.jpg" alt="yogurt"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 早餐店奶茶-->
+        <div class="modal fade" id="milkTeaModal" tabindex="-1" aria-labelledby="milkTeaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">早餐店奶茶</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>早餐店
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>早餐店奶茶奶精成分為植物油，含高濃度飽和脂肪，對腸胃敏感者易造成短暫腹瀉。奶茶中的冰塊也可能因大腸桿菌汙染，引發腸胃感染。若同時是夏季高溫多濕的環境，也可能因微生物導致食品腐敗而腹瀉。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://www.uho.com.tw/article-63558.html">早餐店奶茶</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\milkTea.png" alt="milkTea"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 玫瑰花茶 -->
+        <div class="modal fade" id="roseTeaModal" tabindex="-1" aria-labelledby="roseTeaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">玫瑰花茶</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>便利商店、花茶大師
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>玫瑰花茶具有活血化瘀的功效，能促進腸道的血液循環，幫助腸道蠕動，從而改善便秘（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/rose-tea-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\roseTea.jpg" alt="roseTea"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 黑咖啡 -->
+        <div class="modal fade" id="blackCoffeeModal" tabindex="-1" aria-labelledby="blackCoffeeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">黑咖啡</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>便利商店、超市、咖啡廳
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>黑咖啡中的咖啡因能刺激結腸收縮，增加胃酸分泌，從而促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/black-coffee-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\blackCoffee.png" alt="blackCoffee"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 康普茶 -->
+        <div class="modal fade" id="kombuchaModal" tabindex="-1" aria-labelledby="kombuchaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">康普茶</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>便利商店、超市
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>康普茶含有益生菌和有機酸，這些成分能夠刺激腸道蠕動，幫助消化和排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/kombucha-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\kombucha.jpg" alt="kombucha"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 黑棗乾 -->
+        <div class="modal fade" id="pruneModal" tabindex="-1" aria-labelledby="pruneModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">黑棗乾</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>黑棗乾富含膳食纖維和山梨糖醇，能夠增加腸道蠕動，軟化糞便，幫助排便。黑棗汁刺激腸蠕動的效果更強，不過要從少量（約50cc）開始，以免腹瀉，並且儘量少喝碳酸飲料。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://www.olifefood.com/blogs/%E7%87%9F%E9%A4%8A%E5%B8%AB%E5%B0%88%E6%AC%84/132770">黑棗乾</a>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="http://tjh.com.tw/guidance_content.aspx?guidance_id=165">黑棗汁</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\prune.jpg" alt="prune"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 火龍果 -->
+        <div class="modal fade" id="dragonFruitModal" tabindex="-1" aria-labelledby="dragonFruitModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">火龍果</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場、水果攤
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>火龍果富含膳食纖維和果膠，能夠調解燥熱，促進腸道蠕動，幫助消化和排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/dragon-fruit-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\dragonFruit.jpg" alt="dragonFruit"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 地瓜 -->
+        <div class="modal fade" id="sweetPotatoModal" tabindex="-1" aria-labelledby="sweetPotatoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">地瓜</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>地瓜含有豐富的膳食纖維和果膠，能夠增加糞便體積，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/sweet-potato-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\sweetPatato.jpg" alt="sweetPotato"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 香蕉 -->
+        <div class="modal fade" id="bananaModal" tabindex="-1" aria-labelledby="bananaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">香蕉</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場、水果攤
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>香蕉富含膳食纖維和天然糖分，能夠增加糞便體積，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/banana-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\banana.jpg" alt="banana"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 奇異果 -->
+        <div class="modal fade" id="kiwiModal" tabindex="-1" aria-labelledby="kiwiModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">奇異果</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場、水果攤
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>奇異果富含膳食纖維，能夠幫助解腹脹和軟化糞便，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/kiwi-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\kiwi.jpg" alt="kiwi"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 海藻 -->
+        <div class="modal fade" id="seaweedModal" tabindex="-1" aria-labelledby="seaweedModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">海藻</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>海藻含有豐富的膳食纖維和多醣，能夠軟化糞便，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/seaweed-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\seaweed.jpg" alt="seaweed"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 酪梨 -->
+        <div class="modal fade" id="avocadoModal" tabindex="-1" aria-labelledby="avocadoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">酪梨</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場、水果攤
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>酪梨富含膳食纖維和健康脂肪，能夠潤滑腸道，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/avocado-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\avocado.jpg" alt="avocado"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal 菇類 -->
+        <div class="modal fade" id="mushroomModal" tabindex="-1" aria-labelledby="mushroomModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container px-5 py-3">
+                            <div class="row gx-5 align-items-center justify-content-center">
+                                <!-- Text on the left --> 
+                                <div class="col-md-6">
+                                    <h1 class="display-5 fw-bolder text-black mb-4">菇類</h1>
+                                    <p class="lead-medium fw-normal text-black mb-2">
+                                        <b>購買地點：</b>超市、菜市場
+                                    </p>
+                                    <p class="lead-medium fw-normal text-black mb-4">
+                                        <b>解便原理：</b>菇類含有水溶性纖維，能夠軟化糞便，促進腸道蠕動，幫助排便（由Qodo Gen撰寫）。
+                                    </p>
+                                    <div class="d-grid gap-3 d-sm-flex justify-content-start align-items-center">
+                                        <p class="lead-medium fw-normal text-black mb-1">了解更多：</p>
+                                        <a class="btn btn-outline-light btn-lg px-4" href="https://example.com/mushroom-info">尚未連結</a>
+                                    </div>
+                                </div>
+                                <!-- Image on the right -->
+                                <div class="col-md-6 text-center">
+                                    <img class="img-fluid rounded-3 my-3 uniform-img-size" src="assets\mushroom.jpg" alt="mushroom"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </body>
+</html>
